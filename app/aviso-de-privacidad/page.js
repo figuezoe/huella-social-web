@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Privacy(){return <main className="section" style={{maxWidth:900,margin:"auto"}}><Link href="/" className="eyebrow">← Volver</Link><h1 style={{fontSize:"clamp(3rem,6vw,5rem)"}}>Aviso de privacidad</h1><p>Huella Social Fundraising utilizará los datos proporcionados mediante sus formularios únicamente para responder solicitudes de organizaciones y personas interesadas en formar parte del equipo.</p><p>Para cualquier solicitud relacionada con tus datos personales, escríbenos a alianzas@huellasocial.com.mx.</p></main>}
